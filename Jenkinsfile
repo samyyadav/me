@@ -21,8 +21,8 @@ pipeline {
                 // Example: Copying files to a remote server (adjust to your needs)
                 sh '''
                 ls -la
-                mkdir -p /var/www/html/my_project # Change to your target directory
-                cp -r * /var/www/html/my_project
+                mkdir -p ~/html/my_project
+                cp -r * ~/html/my_project
                 '''
             }
         }
